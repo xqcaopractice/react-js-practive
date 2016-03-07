@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TodoList from './todolist'
+import TodoList from './component/todolist'
 
 export default class App extends Component {
   constructor(props) {

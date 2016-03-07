@@ -4,13 +4,13 @@
   "description": "react js practice",
   "scripts": {
     "start": "node server.js",
-    "clean": "rm -rf ./target ./lib ./dist",
-    "babel": "./node_modules/.bin/babel --presets es2015,react,stage-0 -d lib/ src/",
+    "clean": "rm -rf ./target ./build ./dist",
+    "babel": "./node_modules/.bin/babel --presets es2015,react,stage-0 -d build/ src/",
     "build": "npm run clean && npm run babel && webpack --config config/webpack.config.js"
   },
   "author": "Xiaoqi Cao",
   "main": "lib/index",
-  "files" : [ "dist", "lib"],
+  "files" : [ "dist", "build"],
   "devDependencies": {
     "babel-cli": "^6.3.17",
     "babel-core": "^6.0.20",
